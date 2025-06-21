@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutSign.cshtml";
+}
+
+@using Car360.Models;
+@model Product
+
+<!-- appointment start -->
+
+<div class="container" id="appointment-container">
+    <div class="row">
+        <div class="col-6">
+            <form method="post" id="sign-form">
+                <img src="~/asset/image/appointment1.jpg" alt="Sign Up" id="sign-img">
+                <h2 id="appointment-h2">Appointment</h2>
+                <div id="form-group">
+                    <input type="text" value="@Model.p_company" name="b_company" id="myinput-app" required readonly>
+                </div>
+                <div id="form-group">
+                    <input type="text" value="@Model.p_name" name="b_name" id="myinput-app" required readonly>
+                </div>
+                <div id="form-group">
+                    <input type="text" value="@Model.p_model" name="b_model" id="myinput-app" required readonly>
+                </div>
+                <div id="form-group">
+                    <input type="text" value="@Model.p_price" name="b_price" id="myinput-app" required readonly>
+                </div>
+                <div id="form-group">
+                    <input type="text" value="@Context.Session.GetString("myuser")" name="User_ID" id="myinput-app" required readonly>
+                </div>
+                <div id="form-group">
+                    <input type="date" name="b_date" id="myinput-app" class="myinput-num" required>
+                </div>
+                <button type="submit" id="appointment-btn"><span id="appointment-span">Book</span></button>
+            </form>
+        </div>
+        <div class="col-6" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.5710750926974!2d67.19570202443158!3d24.912608293170667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3377b02c89ec7%3A0x8f7391d696dcb02e!2sMalir%20Cantt%20Check%20Post%20No%202%2C%20Malir%20Cantonment%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1711051062484!5m2!1sen!2s" width="100%" height="100%" style="border: 2px solid rgb(237, 123, 14);" allowfullscreen="#" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+<!-- appointment end -->

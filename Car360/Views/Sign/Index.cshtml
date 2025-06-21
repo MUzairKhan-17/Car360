@@ -1,0 +1,92 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutSign.cshtml";
+}
+
+<!-- index start -->
+@if (TempData["loginsuccess"] != null)
+{
+    <div class="alert alert-success"><strong>Success: @TempData["loginsuccess"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else if (TempData["Book"] != null)
+{
+    <div class="alert alert-success"><strong>Success: @TempData["Book"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else{}
+<div class="container-fluid" id="index-slider">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active bg-dark" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active bg-dark" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="~/asset/image/audi-r8.jpg" class="d-block" width="100%" height="600px" alt="Car's Image Loading">
+      </div>
+      <div class="carousel-item">
+        <img src="~/asset/image/BMW_M4_(G82)_IMG_4183.jpg" class="d-block" width="100%" height="600px" alt="Car's Image Loading">
+      </div>
+      <div class="carousel-item">
+        <img src="~/asset/image/prius-Toyota.jpg" class="d-block" width="100%" height="600px" alt="Car's Image Loading">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-dark active" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-dark active" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<div class="container-xxl">
+<div class="row" id="intro-row">
+<h1 id="intro">introduction</h1>
+<div class="row" id="intro-img"><img src="~/asset/image/logo.png" alt="Car's image Loading" height="600px"></div>
+<div class="row"><p id="intro-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis tenetur consectetur dolor aperiam vitae architecto obcaecati numquam. Possimus a fuga sint ratione consectetur iusto odio. Rem eveniet culpa libero eligendi cumque sapiente magnam nostrum ut expedita! Rem animi nostrum dicta soluta eius, esse quis reiciendis temporibus? Culpa necessitatibus unde earum blanditiis nostrum atque sit voluptate fuga esse eaque reprehenderit quod debitis aut repudiandae mollitia iusto, exercitationem dolorem molestias harum impedit, et, inventore provident ad praesentium? Libero ea molestiae quo et saepe, sequi eius, nam consequuntur eum velit assumenda dolore dolorem nisi ad sint dignissimos praesentium iure consectetur, natus incidunt porro maxime non. Officiis nobis cum dolorum ut unde dolores sint qui, minima adipisci, aliquam consequuntur laborum, libero corrupti ad magni sequi magnam autem eum aut! Accusamus accusantium error expedita. Optio.</p></div>
+</div>
+</div>
+
+<div class="container-fluid" id="index-card-con">
+<div class="row"><h1 id="intro">our top product's</h1></div>
+<div class="row" id="index-row">
+
+<div class="col-3" id="index-card">
+<h1 id="index-h1">Audi R8</h1>
+<div id="img-transform">
+<img src="~/asset/image/audi-r8.jpg" width="100%" height="250px" alt="Car's Image Loading">
+</div>
+<p id="index-h2">Model:2017</p>
+<p id="index-h3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nobis!</p>
+<p id="index-h4">Price:150,00,00</p>
+<a asp-action="Product" id="product-btn" class="text-decoration-none"><span id="product-span">Buy Now</span></a>
+</div>
+
+<div class="col-3" id="index-card">
+<h1 id="index-h1">BMW M4</h1>
+<div id="img-transform">
+<img src="~/asset/image/BMW_M4_(G82)_IMG_4183.jpg" width="100%" height="250px" alt="Car's Image Loading">
+</div>
+<p id="index-h2">Model:2018</p>
+<p id="index-h3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nobis!</p>
+<p id="index-h4">Price:120,00,00</p>
+<a asp-action="Product" id="product-btn" class="text-decoration-none"><span id="product-span">Buy Now</span></a>
+</div>
+
+<div class="col-3" id="index-card">
+<h1 id="index-h1">Toyota Prius</h1>
+<div id="img-transform">
+<img src="~/asset/image/prius-Toyota.jpg" width="100%" height="250px" alt="Car's Image Loading">
+</div>
+<p id="index-h2">Model:2023</p>
+<p id="index-h3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nobis!</p>
+<p id="index-h4">Price:180,00,00</p>
+<a asp-action="Product" id="product-btn" class="text-decoration-none"><span id="product-span">Buy Now</span></a>
+</div>
+
+</div>
+</div>
+
+<!-- index end -->

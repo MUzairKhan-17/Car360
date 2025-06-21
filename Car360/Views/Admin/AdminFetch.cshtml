@@ -1,0 +1,62 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using Car360.Models;
+@model List<Admin>
+
+@if (TempData["adminsign"] != null)
+{
+    <div class="alert alert-success"><strong>Success: @TempData["Adminsign"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else { }
+
+<!-- Recent Sales Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="col-12">
+        <div class="bg-dark rounded h-100 p-4">
+            <div class="col-4">
+                <form class="d-none d-md-flex ms-4 mb-4">
+                    <input class="form-control border-0" type="search" placeholder="Search..." name="Search">
+                    <input type="submit" class="btn" id="btn-search" value="Search">
+                </form>
+            </div>
+            <h2 class="text-light">@ViewBag.notfound</h2>
+            <div class="table-responsive">
+                <table class="table text-light text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Gmail</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var row in Model)
+                        {
+                            <tr>
+                                <td>@row.a_id</td>
+                                <td>@row.a_name</td>
+                                <td>@row.a_mail</td>
+
+                                @if (row.a_status == 1)
+                                {
+                                    <td>Active</td>
+                                }
+                                else
+                                {
+                                    <td>Deactive</td>
+                                }
+                                <td width="15%"><img src="~/Admin-image/@row.a_mail/@row.a_image" width="100%" height="100%" /></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Sales End -->

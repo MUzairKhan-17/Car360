@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutSign.cshtml";
+}
+
+<!-- Feedback Start -->
+
+<div class="container" id="sign-container">
+<div class="row">
+<form method="post" id="sign-form">
+<img src="~/asset/image/sign up.png" alt="Sign Up" id="sign-img">
+<h2 id="sign-h2">Feedback</h2>
+<div id="form-group">
+<input type="text" placeholder="Enter Your Name:" id="myinput" pattern="[a-zA-Z]{2+}" required>
+<label for="myinput" id="mylabel">Enter Your Name:</label>
+</div>
+<div id="form-group">
+<textarea type="number" placeholder="Enter Your Feedback:" id="myinput" class="myinput-num" required></textarea>
+<label for="myinput" id="mylabel">Enter Your Feedback:</label>
+</div>
+<button type="submit" id="sign-btn"><span id="index-span">Feedback</span></button>
+</form>
+</div>
+</div>
+
+<!-- Feedback End -->

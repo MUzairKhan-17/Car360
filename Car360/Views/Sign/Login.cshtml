@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutSign.cshtml";
+}
+
+<!-- login start -->
+
+@if (TempData["signup"] != null) 
+{
+    <div class="alert alert-success"><strong>Success: @TempData["signup"] @TempData["loginfailed"] @TempData["deactive"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else if (TempData["loginfailed"] != null)
+{
+    <div class="alert alert-success"><strong>Success: @TempData["loginfailed"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else if (TempData["deactive"] != null)
+{
+    <div class="alert alert-success"><strong>Success: @TempData["deactive"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else if (TempData["loginfirst"] != null)
+{
+    <div class="alert alert-success"><strong>Success: @TempData["loginfirst"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else{}
+
+<div class="container" id="login-container">
+    <div class="row" id="sign-row">
+        <form method="post" id="sign-form">
+            <img src="~/asset/image/Login.jpg" alt="Login" id="login-img">
+            <h2 id="login-h2">Login</h2>
+            <div id="form-group">
+                <input type="text" placeholder="Enter Your Username:" id="myinput" pattern="[a-zA-Z0-9]{3+}" name="txtuser" required>
+                <label for="myinput" id="mylabel">Enter Your Username:</label>
+            </div>
+            <div id="form-group">
+                <input type="password" placeholder="Enter Your Password:" id="myinput-pass" pattern="[a-zA-Z0-9]+{8+}" name="txtpass" required>
+                <label for="myinput" id="mylabel-pass">Enter Your Password:</label>
+                <div id="toggle-pass" onclick="showhide()"></div>
+            </div>
+            <button type="submit" id="login-btn"><span id="index-span">Login</span></button>
+        </form>
+        <h3>@ViewBag.loginfailed @ViewBag.deactive</h3>
+    </div>
+</div>
+
+<!-- login end -->

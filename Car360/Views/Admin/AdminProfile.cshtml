@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using Car360.Models;
+@model List<Admin>
+
+<div class="container" id="profileContainer">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4" id="profileCard">
+            @foreach (var row in Model) { 
+            <h3 id="profile-h3">@row.a_name</h3>
+            <img src="~/Admin-image/@row.a_mail/@row.a_image" width="80%" height="80%">
+            <h4 id="profile-h4">@row.a_mail</h4>
+            <h5 id="profile-h5">@row.a_pass</h5>
+            <a href="@Url.Action("AdminUpdate","Admin",new {id=row.a_id})" class="btn btn-outline-info">Update Profile</a>
+            }
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>

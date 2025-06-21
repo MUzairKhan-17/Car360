@@ -1,0 +1,67 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using Car360.Models;
+@model List<Sign>
+
+<!-- Recent Sales Start -->
+<div class="container-fluid pt-4 px-4">
+    <div class="col-12">
+        <div class="bg-dark rounded h-100 p-4">
+            <div class="col-4">
+                <form class="d-none d-md-flex ms-4 mb-4">
+                    <input class="form-control border-0" type="search" placeholder="Search..." name="Search">
+                    <input type="submit" class="btn" id="btn-search" value="Search">
+                </form>
+            </div>
+            <h2 class="text-light">@ViewBag.notfound</h2>
+            <div class="table-responsive">
+                <table class="table text-light text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Fullname</th>
+                            <th scope="col">Gmail</th>
+                            <th scope="col">Phone No</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Active/Deactive</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var row in Model)
+                        {
+                            <tr>
+                                <td>@row.s_id</td>
+                                <td>@row.s_user</td>
+                                <td>@row.s_name</td>
+                                <td>@row.s_mail</td>
+                                <td>@row.s_phone</td>
+
+                                @if (row.s_status == 1)
+                                {
+                                    <td>Active</td>
+                                }
+                                else
+                                {
+                                    <td>Deactive</td>
+                                }
+                                
+                                @if (row.s_status == 1)
+                                {
+                                    <td><a href="@Url.Action("UserDeactive","Admin",new {id=row.s_id})" class="btn btn-outline-info">Deactive</a></td>
+                                }
+                                else 
+                                { 
+                                <td><a href="@Url.Action("UserActive","Admin",new {id=row.s_id})" class="btn btn-outline-success">Active</a></td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Recent Sales End -->

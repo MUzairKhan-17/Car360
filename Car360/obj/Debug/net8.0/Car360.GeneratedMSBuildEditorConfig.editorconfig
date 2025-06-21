@@ -1,0 +1,155 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Car360
+build_property.RootNamespace = Car360
+build_property.ProjectDir = D:\.Net Core\Car360\Car360\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\.Net Core\Car360\Car360
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/AdminActiveDeactive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5BY3RpdmVEZWFjdGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/AdminDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/AdminFetch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5GZXRjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/AdminProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5Qcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/AdminSignup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5TaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/AdminUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwb2ludG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/DeleteAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlQXBwb2ludG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/ProductActiveDeactive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEFjdGl2ZURlYWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/ProductDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/ProductFetch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEZldGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/ProductInsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/ProductUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/ProductUpdateQuery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdFVwZGF0ZVF1ZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/UserActiveDeactive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckFjdGl2ZURlYWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Admin/UserDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxGZWVkYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxHYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/ProfileUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxQcm9maWxlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Sign/Sign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblxTaWduLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.Net Core/Car360/Car360/Views/Shared/_LayoutSign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTaWduLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-0l5h363a24

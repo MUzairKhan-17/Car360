@@ -1,0 +1,42 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutSign.cshtml";
+}
+
+@using Car360.Models;
+@model List<Sign>
+
+<!-- profile start -->
+@if (TempData["Password"] != null)
+{
+    <div class="alert alert-success"><strong>Success: @TempData["Password"]</strong><button type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="close"></button></div>
+}
+else{}
+
+<div class="container">
+    <div class="row" id="pro-row">
+
+        <div class="col-3" id="profile-card">
+
+            @foreach (var row in Model) 
+            { 
+
+            <h1 id="profile-h1">@row.s_name</h1>
+            <div id="user-img-profile">
+                <img src="~/User-image/@row.s_mail/@row.s_image" id="user-profile-image" alt="User Image Loading" width="40%" height="60%">
+            </div>
+            <p id="profile-h2">@row.s_user</p>
+            <p id="profile-h3">@row.s_mail</p>
+            <p id="profile-h4">@row.s_phone</p>
+            <p id="profile-h4">@row.s_pass</p>
+            <a href="@Url.Action("Logout","Sign")" class="text-decoration-none" id="profile-btn"><span id="profile-span">Logout</span></a>
+
+            <a href="@Url.Action("ProfileUpdate","Sign",new {id=row.s_id})" class="text-decoration-none" id="profile-btn"><span id="profile-span">Update</span></a>
+
+            }
+
+        </div>
+
+    </div>
+</div>
+
+<!-- profile end -->

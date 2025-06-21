@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Car360.props" />
+</Project>

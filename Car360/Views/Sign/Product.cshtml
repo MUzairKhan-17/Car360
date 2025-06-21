@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutSign.cshtml";
+}
+
+@using Car360.Models;
+@model List<Product>
+
+<!-- product start -->
+
+<div class="container-xxl" id="index-card-con">
+
+    <div class="row" id="index-row">
+
+        @foreach (var row in Model)
+        {
+
+            <div class="col-3" id="index-card">
+                <h1 id="index-h1">@row.p_company @row.p_name</h1>
+                <div id="img-transform">
+                    <img src="~/Product-image/@row.p_image/@row.p_image" width="100%" height="250px" alt="Car's Image Loading">
+                </div>
+                <p id="index-h2">Model:@row.p_model</p>
+                <p id="index-h3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nobis!</p>
+                <p id="index-h4">Price:@row.p_price</p>
+                <a href="@Url.Action("Appointment","Sign",new {id=row.p_id})" class="text-decoration-none" id="product-btn"><span id="product-span">Booking</span></a>
+            </div>
+        
+        }
+
+    </div>
+
+</div>
+
+<!-- product end -->

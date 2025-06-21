@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@using Car360.Models;
+@model Product
+
+
+<div class="container-xxl position-relative bg-light d-flex p-0">
+
+    <!-- Sign Up Start -->
+    <div class="container-fluid">
+        <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                <div class="rounded p-4 my-4" id="login" style="min-width: 70vh;">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <a>
+                            <h3 id="logo-login"><i class="fa fa-hashtag me-2"></i>Car360</h3>
+                        </a>
+                        <h3 id="logo-login">Update</h3>
+                    </div>
+                    <form method="post">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe" value="@Model.p_id" name="p_id" hidden required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe" value="@Model.p_company" name="p_company" required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe" value="@Model.p_name" name="p_name" required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe" value="@Model.p_price" name="p_price" required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe" value="@Model.p_model" name="p_model" required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe" value="@Model.p_image" name="p_image" hidden required>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingText" placeholder="jhondoe" value="@Model.p_status" name="p_status" hidden required>
+                        </div>
+                        <input type="submit" id="btn-login" class="btn py-3 w-100 mb-4" value="Update">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sign Up End -->

@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car360</title>
+    <link rel="stylesheet" href="~/asset/css/car360.css"/>
+    <link rel="stylesheet" href="~/asset/css/bootstrap.css">
+    <link rel="Icon" href="~/asset/image/logo.png">
+    <link rel="stylesheet" href="~/asset/fontawesome-free-6.5.1-web/css/all.css">
+</head>
+<body>
+
+<!-- navbar start -->
+
+<div class="container-fluid" id="header">
+  <a class="logo"><img src="~/asset/image/logo.png" alt="Logo" width="100%" height="100%"></a>
+  <input type="checkbox" id="check">
+  <label for="check" id="icon">
+    <i class="fa-solid fa-bars fa-2xs" id="menu-icon"></i><i class="fa-solid fa-xmark fa-2xs" id="close-icon"></i>
+  </label>
+  <nav id="mynavbar">
+    <a asp-action="Index" class="nav-a" style="--i:0;">Home</a>
+    <a asp-action="Gallery" class="nav-a" style="--i:1;">Gallery</a>
+    <a asp-action="Feedback" class="nav-a" style="--i:2;">Feedback</a>
+    <a asp-action="Product" class="nav-a" style="--i:3;">Product's</a>
+    <a asp-action="About" class="nav-a" style="--i:4;">About</a>
+    <a asp-action="Sign" class="nav-a" style="--i:5;">Sign Up</a>
+    <a asp-action="Login" class="nav-a" style="--i:6;">Login</a>
+    <a asp-action="Profile" class="nav-a" style="--i:7;">Profile</a>
+  </nav>
+</div>
+
+<!-- navbar end -->
+
+    <!-- navbar end -->
+
+@* render body start *@
+
+<div>
+    @RenderBody()
+</div>
+
+@* render body end *@
+
+<!-- footer start -->
+
+<footer>
+  <div class="container-fluid" id="container">
+    <div class="row" id="row">
+      <div class="col-4" id="col">
+        <h2 id="h2">Section</h2>
+        <ul type="circle">
+          <li><a class="foot-a" href="index.html">Home</a></li>
+          <li><a class="foot-a" href="gallery.html">Gallery</a></li>
+          <li><a class="foot-a" href="about.html">About US</a></li>
+          <li><a class="foot-a" href="sign.html">Sign Up</a></li>
+          <li><a class="foot-a" href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <div class="col-3" id="col">
+        <h2 id="h2">FAQ's</h2>
+        <ul type="circle">
+          <li><a class="foot-a" href="#">ABC</a></li>
+          <li><a class="foot-a" href="#">DEF</a></li>
+          <li><a class="foot-a" href="#">GHI</a></li>
+          <li><a class="foot-a" href="#">JKL</a></li>
+          <li><a class="foot-a" href="#">MNO</a></li>
+        </ul>
+      </div>
+      <div class="col-5" id="col">
+        <h2 id="h2">Social</h2>
+        <ul type="circle">
+          <li><a class="social-link-f" href="#"><i class="fa-brands fa-facebook fa-beat-fade"></i> Car360</a></li>
+          <li><a class="social-link-i" href="#"><i class="fa-brands fa-solid fa-instagram fa-beat-fade fa-2x1"></i> Car360</a></li>
+          <li><a class="social-link-s" href="#"><i class="fa-brands fa-solid fa-snapchat fa-beat-fade"></i> Car360</a></li>
+          <li><a class="social-link-w" href="#"><i class="fa-brands fa-solid fa-tiktok fa-beat-fade"></i> Car360</a></li>
+          <li><a class="social-link-x" href="#"><i class="fa-sharp fa-solid fa-x fa-beat-fade"></i> Car360</a></li>
+        </ul>
+      </div>
+    </div>
+  <div class="hr"><hr></div>
+  <div class="copy">&copy; 2024 Copyright, Inc, All Right Resered, Car360</div>
+  </div>
+</footer>
+  
+<!-- footer end -->
+
+    <script src="~/asset/js/bootstrap.bundle.js"></script>
+    <script src="~/asset/js/script.js"></script>
+
+</body>
+</html>

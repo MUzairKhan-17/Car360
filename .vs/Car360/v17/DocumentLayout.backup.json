@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net Core\\Car360\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|d:\\.net core\\car360\\car360\\wwwroot\\asset\\css\\car360.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|solutionrelative:car360\\wwwroot\\asset\\css\\car360.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|d:\\.net core\\car360\\car360\\views\\shared\\_layoutsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|solutionrelative:car360\\views\\shared\\_layoutsign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|d:\\.net core\\car360\\car360\\views\\sign\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|solutionrelative:car360\\views\\sign\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|d:\\.net core\\car360\\car360\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|solutionrelative:car360\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|d:\\.net core\\car360\\car360\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|solutionrelative:car360\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|d:\\.net core\\car360\\car360\\controllers\\signcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{523A44B4-94B8-4752-948F-D6FB74A0C2D8}|Car360\\Car360.csproj|solutionrelative:car360\\controllers\\signcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "car360.css",
+              "DocumentMoniker": "D:\\.Net Core\\Car360\\Car360\\wwwroot\\asset\\css\\car360.css",
+              "RelativeDocumentMoniker": "Car360\\wwwroot\\asset\\css\\car360.css",
+              "ToolTip": "D:\\.Net Core\\Car360\\Car360\\wwwroot\\asset\\css\\car360.css",
+              "RelativeToolTip": "Car360\\wwwroot\\asset\\css\\car360.css",
+              "ViewState": "AgIAAJUHAAAAAQAAAEAuwFgIAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-21T11:26:41.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutSign.cshtml",
+              "DocumentMoniker": "D:\\.Net Core\\Car360\\Car360\\Views\\Shared\\_LayoutSign.cshtml",
+              "RelativeDocumentMoniker": "Car360\\Views\\Shared\\_LayoutSign.cshtml",
+              "ToolTip": "D:\\.Net Core\\Car360\\Car360\\Views\\Shared\\_LayoutSign.cshtml",
+              "RelativeToolTip": "Car360\\Views\\Shared\\_LayoutSign.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T11:21:09.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\.Net Core\\Car360\\Car360\\Views\\Sign\\About.cshtml",
+              "RelativeDocumentMoniker": "Car360\\Views\\Sign\\About.cshtml",
+              "ToolTip": "D:\\.Net Core\\Car360\\Car360\\Views\\Sign\\About.cshtml",
+              "RelativeToolTip": "Car360\\Views\\Sign\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T11:20:18.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\.Net Core\\Car360\\Car360\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Car360\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\.Net Core\\Car360\\Car360\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Car360\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T11:20:10.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\.Net Core\\Car360\\Car360\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Car360\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\.Net Core\\Car360\\Car360\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Car360\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T11:20:07.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignController.cs",
+              "DocumentMoniker": "D:\\.Net Core\\Car360\\Car360\\Controllers\\SignController.cs",
+              "RelativeDocumentMoniker": "Car360\\Controllers\\SignController.cs",
+              "ToolTip": "D:\\.Net Core\\Car360\\Car360\\Controllers\\SignController.cs",
+              "RelativeToolTip": "Car360\\Controllers\\SignController.cs",
+              "ViewState": "AgIAACEAAAAAMDMzM/MgwCkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T11:03:00.124Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
